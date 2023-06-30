@@ -1,0 +1,46 @@
+/*  COLORS:
+    Primary: #010005 (RGB: 1, 0, 5)
+    Secondary: #f4f0ff (RGB: 244, 240, 255)
+    Primary Button: #7c52fa (RGB: 124, 82, 250)
+    Secondary Button: #ffffff (RGB: 255, 255, 255)
+    Accent: #8f6bfa (RGB: 143, 107, 250) 
+*/
+
+:root {
+  --primary-color: #010005;
+  --secondary-color: #f4f0ff;
+  --primary-button-color: #7c52fa;
+  --secondary-button-color: #ffffff;
+  --accent-color: #8f6bfa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+  color: var(--primary-color);
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+header {
+  padding: 15px 0;
+  font-size: 1.1rem;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
