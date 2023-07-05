@@ -45,9 +45,12 @@ header a {
   color: inherit;
 }
 
-.intro-info {
+main {
   width: 70%;
   margin: auto;
+}
+
+.intro-info {
   margin-top: 30px;
 }
 
@@ -61,9 +64,7 @@ header a {
 }
 
 .bio {
-  width: 70%;
-  margin: auto;
-  margin-top: 50px;
+  margin: 150px 0;
   font-size: 1.2rem;
   display: flex;
 }
@@ -74,7 +75,24 @@ header a {
   border-radius: 50%;
   margin-right: 30px;
 }
-/* 
-.bio-text {
 
-} */
+.skills {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+}
+
+.frontend,
+.backend,
+.fullstack {
+  width: 33.3%;
+  height: 100%;
+}
+
+.frontend,
+.backend {
+  border-right: 2px solid rgba(0, 0, 0, 0.15);
+}
